@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ControlScenes : MonoBehaviour {
     
     public void ReplayLevel() {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
 }
