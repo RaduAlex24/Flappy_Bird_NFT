@@ -34,6 +34,10 @@ public class FlappyMove : MonoBehaviour
         {
             ManageGame.GameOver();
         }
+        else if (collision.collider.tag == "medal") {
+            ManageGame.Win();
+        }
+
         //else
 
         //if (collision.collider.tag == "winner")

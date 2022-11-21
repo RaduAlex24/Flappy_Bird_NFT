@@ -23,9 +23,12 @@ public class ManageGame : MonoBehaviour
 
     public void Win()
     {
-        SceneManager.LoadScene(14);
+        SceneManager.LoadScene(5);
     }
 
+
+
+    // De aici nu am facut eu
     public void WinFree()
     {
         SceneManager.LoadScene(17);

@@ -9,4 +9,10 @@ public class ControlScenes : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+
+    public void ReturnToMainMenu() {
+        SceneManager.LoadScene(1);
+    }
+
+
 }

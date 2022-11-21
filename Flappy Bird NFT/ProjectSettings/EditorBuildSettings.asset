@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameSceneYellow.unity
     guid: 97871867ac07c4245b8464a651cf7acf
+  - enabled: 1
+    path: Assets/Scenes/Winners.unity
+    guid: 30142bf51c59e864c8ea1582752831f1
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: fda5c7e181508374ab1e0ce719a8da87
   m_configObjects: {}
